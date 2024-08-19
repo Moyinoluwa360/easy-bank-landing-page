@@ -1,0 +1,242 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-size: 18px;
+    overflow-x: hidden;
+}
+.header{
+    display: flex;
+    padding-left: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10%;
+    height: 45px;
+    align-items: center;
+    justify-content: space-between;
+}
+li{
+    list-style-type:none;
+    height: 100%;
+    color: hsl(233, 8%, 62%);
+}
+li:hover{
+    border-bottom: 1px solid hsl(136, 65%, 51%);
+    border-width: 4px;
+    color: hsl(233, 26%, 24%);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+    height: 100%;
+}
+.request-invite-btn{
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(175, 32%, 62%) );
+    height: 45px;
+    color: white;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+.request-invite-btn:hover{
+    background-image: linear-gradient(to right, hsl(136, 43%, 64%), hsl(173, 15%, 76%) );
+}
+.page-sec1{
+    display: flex;
+    padding-left: 10%;
+    width: 100%;
+}
+.page-sec1-a{
+    display: flex;
+    flex-direction: column;
+    padding-top: 7%;
+    width: 24%;
+    gap: 300px;
+}
+.page-sec1-a-1{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    color: hsl(233, 8%, 62%);
+
+}
+.boldest-span{
+    color: hsl(233, 26%, 24%);
+    font-size: 70px;
+}
+.page-sec1-b{
+    position: relative;
+    flex-basis: 1;
+    padding: 0%;
+}
+.img-wrapper{
+    position: relative;
+    padding: 0%;
+    overflow: hidden;
+}
+
+.main-img {
+    margin: 0%;
+    position: relative;
+    left: 180px;
+    bottom: 255px;
+}
+
+.overlaying-img {
+    position: absolute;
+    bottom: 100px;
+    left: 430px;
+    width: 72%;
+}
+.page-sec1-a-2{
+    display: flex;
+    flex-direction: column;
+    overflow:visible;
+    flex-wrap: nowrap;
+    gap: 10px;
+    width: 700px;
+    color: hsl(233, 8%, 62%);
+}
+.boldest-span2{
+    color: hsl(233, 26%, 24%);
+    font-size: 40px;
+}
+
+/* page sec 2 */
+#page-sec2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.components{
+    display: flex;
+    flex-basis: 1;
+    flex-direction: column;
+    gap:15px;
+    width: 20%;
+    color: hsl(233, 8%, 62%);
+}
+.components img{
+    height: 70px;
+    width: 70px;
+}
+.title{
+    color: hsl(233, 26%, 24%);
+    font-size: 25px;
+}
+
+/* page sec 3 elements created in js*/ 
+.page-sec3{
+    margin-top: 100px;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+.page-sec3-header{
+    color: hsl(234, 17%, 32%);
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.page-sec3-article{
+    display: flex;
+    justify-content: space-between;
+}
+.article-img{
+    height: 300px;
+    width: 100%;
+}
+.article-components{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 23%;
+}
+.article-text-components{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.author-span{
+    font-size: 15px;
+    color: hsl(233, 18%, 55%);
+}
+.title-span{
+    font-size: 22px;
+    color: hsl(233, 26%, 24%);
+}
+.title-span:hover{
+    color: hsl(136, 65%, 51%);
+}
+.description-span{
+    color: hsl(234, 17%, 32%);
+    font-size: 17px;
+}
+.socials-img img{
+    margin-right: 10px ;
+}
+.socials-img img:hover{
+    filter: invert(40%) sepia(70%) saturate(600%) hue-rotate(90deg) brightness(1.5);
+}
+.footer{
+    background-color: hsl(233, 26%, 24%);
+    color: hsl(234, 17%, 32%);
+    padding: 30px 10% 30px 10%;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+.grid-sec .logo{
+    filter: brightness(0) invert(1);
+}
+.grid-sec{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 35%;
+}
+.logo {
+    grid-column: 1 / 2; 
+    grid-row: 1 / 2; 
+}
+
+.socials-img {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4; 
+}
+
+.links {
+    grid-column: 2 / 4;
+    grid-row: 1 / 4;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 150px;
+    color: rgb(243, 250, 255);
+    font-size: 16px;
+}
+.links-{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.flex-sec{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+    color: rgb(204, 231, 255);   
+}
+a{
+    color: aliceblue;
+}

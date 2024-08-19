@@ -1,0 +1,1 @@
+This is a normal difficulty front end project from frontendmentor.com to improve and test my frontend skills.
